@@ -1,0 +1,46 @@
+# Ignore everything
+*
+# But keep custom packages and models
+!/test111
+test111/bin/
+test111/resources/
+test111/XppMetadata/
+test111/BPCheck.xml
+test111/BuildModelResult.xml
+test111/BuildModelResult.log
+test111/BuildProjectResult.err.xml
+test111/BuildProjectResult.xml
+test111/CompileLabels.xml
+test111/*.xref
+test111/*.$usr
+
+!/test222
+test222/bin/
+test222/resources/
+test222/XppMetadata/
+test222/BPCheck.xml
+test222/BuildModelResult.xml
+test222/BuildModelResult.log
+test222/BuildProjectResult.err.xml
+test222/BuildProjectResult.xml
+test222/CompileLabels.xml
+test222/*.xref
+test222/*.$usr
+
+!/test333
+test333/bin/
+test333/resources/
+test333/XppMetadata/
+test333/BPCheck.xml
+test333/BuildModelResult.xml
+test333/BuildModelResult.log
+test333/BuildProjectResult.err.xml
+test333/BuildProjectResult.xml
+test333/CompileLabels.xml
+test333/*.xref
+test333/*.$usr
+
+# keep Projects
+!/VSProjects
+
+!.gitignore
