@@ -1,5 +1,6 @@
 # Ignore everything
-*
+/*
+
 # But keep custom packages and models
 !/test111
 test111/bin/
